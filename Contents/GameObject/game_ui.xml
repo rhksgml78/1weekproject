@@ -1,0 +1,90 @@
+<Root Name="game_ui" Visible="false" ObType="1">
+    <Mesh File="ui_code.mesh"/>
+    <Shader File="6.Cube.hlsl"/>
+    <Transform>
+        <Position X="0" Y="0" Z="0"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="1"/>
+    <Child0 Name="player1_ui" Visible="false" ObType="1">
+        <Mesh File="ui_code.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="7"/>
+        <Child0 Name="pos1_1" Visible="true" ObType="1">
+            <Mesh File="ui_code.mesh"/>
+            <Shader File="6.Cube.hlsl"/>
+            <Transform>
+                <Position X="-6" Y="3" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child0>
+        <Child1 Name="pos1_2" Visible="true" ObType="1">
+            <Mesh File="ui_code.mesh"/>
+            <Shader File="6.Cube.hlsl"/>
+            <Transform>
+                <Position X="-4" Y="3" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child1>
+        <Child2 Name="pos1_3" Visible="true" ObType="1">
+            <Mesh File="ui_code.mesh"/>
+            <Shader File="6.Cube.hlsl"/>
+            <Transform>
+                <Position X="-2" Y="3" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child2>
+        <Child3 Name="pos1_4" Visible="true" ObType="1">
+            <Mesh File="ui_code.mesh"/>
+            <Shader File="6.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="3" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child3>
+        <Child4 Name="pos1_5" Visible="true" ObType="1">
+            <Mesh File="ui_code.mesh"/>
+            <Shader File="6.Cube.hlsl"/>
+            <Transform>
+                <Position X="2" Y="3" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child4>
+        <Child5 Name="pos1_6" Visible="true" ObType="1">
+            <Mesh File="ui_code.mesh"/>
+            <Shader File="6.Cube.hlsl"/>
+            <Transform>
+                <Position X="4" Y="3" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child5>
+        <Child6 Name="pos1_7" Visible="true" ObType="1">
+            <Mesh File="ui_code.mesh"/>
+            <Shader File="6.Cube.hlsl"/>
+            <Transform>
+                <Position X="6" Y="3" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child6>
+    </Child0>
+</Root>

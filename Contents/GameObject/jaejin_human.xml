@@ -1,0 +1,59 @@
+<Root Name="jaejin_human" Visible="true" ObType="1">
+    <Mesh File="1.Cube.mesh"/>
+    <Shader File="1.Cube.hlsl"/>
+    <Transform>
+        <Position X="0" Y="1" Z="35.462509"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="4"/>
+    <Child0 Name="gauge" Visible="true" ObType="1">
+        <Mesh File="1.Cube.mesh"/>
+        <Shader File="1.Cube.hlsl"/>
+        <Transform>
+            <Position X="0" Y="2" Z="0"/>
+            <Scale X="1.700001" Y="0.30000001" Z="0.30000001"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child0>
+    <Child1 Name="human_backcam" Visible="true" ObType="2">
+        <Transform>
+            <Position X="0" Y="5" Z="-10"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0.34906587" Y="0" Z="0"/>
+        </Transform>
+        <Camera Ortho="false" Fov="1.047192" Width="1280" Height="720" NearZ="0.1" FarZ="500" viewportX="0" viewportY="0" viewportW="1280" viewportH="720"/>
+        <Children Size="0"/>
+    </Child1>
+    <Child2 Name="spear_dir" Visible="true" ObType="1">
+        <Mesh File="1.Cube.mesh"/>
+        <Shader File="1.Cube.hlsl"/>
+        <Transform>
+            <Position X="2.7" Y="0.5" Z="0"/>
+            <Scale X="0.15000001" Y="0.1" Z="2.1500001"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="1"/>
+        <Child0 Name="spear_dir_head" Visible="true" ObType="1">
+            <Mesh File="1.Sphere.mesh"/>
+            <Shader File="1.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="1.0930232"/>
+                <Scale X="1.55" Y="3.9000001" Z="0.25"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child0>
+    </Child2>
+    <Child3 Name="spear_socket" Visible="true" ObType="1">
+        <Mesh File="1.BoxCollider.mesh"/>
+        <Shader File="1.Cube.hlsl"/>
+        <Transform>
+            <Position X="-1.5" Y="0.5" Z="0"/>
+            <Scale X="0.1" Y="0.1" Z="0.1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child3>
+</Root>

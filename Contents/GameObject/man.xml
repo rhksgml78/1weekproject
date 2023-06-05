@@ -1,0 +1,66 @@
+<Root Name="Actor" Visible="true" ObType="1">
+    <Mesh File="Head.mesh"/>
+    <Shader File="6.Cube.hlsl"/>
+    <Texture File="sample.png"/>
+    <Transform>
+        <Position X="0" Y="10.8" Z="0"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="5"/>
+    <Child0 Name="Arm1" Visible="true" ObType="0">
+        <Mesh File="Arm.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Texture File="sample.png"/>
+        <Transform>
+            <Position X="-1.9" Y="-3" Z="0"/>
+            <Scale X="0.5" Y="2" Z="0.30000001"/>
+            <Rotation X="0.33161256" Y="1.5707964" Z="0.33161256"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child0>
+    <Child1 Name="Arm2" Visible="true" ObType="0">
+        <Mesh File="Arm.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Texture File="sample.png"/>
+        <Transform>
+            <Position X="1.8" Y="-3" Z="0"/>
+            <Scale X="0.5" Y="2" Z="0.30000001"/>
+            <Rotation X="0.47123891" Y="-1.5707964" Z="-0.33161256"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child1>
+    <Child2 Name="Body" Visible="true" ObType="0">
+        <Mesh File="Body.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Texture File="sample.png"/>
+        <Transform>
+            <Position X="0" Y="-3" Z="0"/>
+            <Scale X="1" Y="2" Z="0.5"/>
+            <Rotation X="0" Y="-0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child2>
+    <Child3 Name="Leg1" Visible="true" ObType="0">
+        <Mesh File="LLeg.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Texture File="sample.png"/>
+        <Transform>
+            <Position X="0.5" Y="-7" Z="0"/>
+            <Scale X="0.5" Y="2" Z="0.5"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child3>
+    <Child4 Name="Leg2" Visible="true" ObType="0">
+        <Mesh File="RLeg.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Texture File="sample.png"/>
+        <Transform>
+            <Position X="-0.5" Y="-7" Z="0"/>
+            <Scale X="0.5" Y="2" Z="0.5"/>
+            <Rotation X="-0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child4>
+</Root>

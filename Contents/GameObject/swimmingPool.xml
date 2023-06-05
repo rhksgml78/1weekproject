@@ -1,0 +1,279 @@
+<Root Name="Actor" Visible="true" ObType="1">
+    <Mesh File="6.Edit.mesh"/>
+    <Shader File="6.Cube.hlsl"/>
+    <Texture File="tile.png"/>
+    <Transform>
+        <Position X="0" Y="10" Z="0"/>
+        <Scale X="1" Y="5" Z="15"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="10"/>
+    <Child0 Name="BackWall" Visible="true" ObType="0">
+        <Mesh File="6.Edit2.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Texture File="tile.png"/>
+        <Transform>
+            <Position X="15" Y="0" Z="5.3000002"/>
+            <Scale X="16" Y="1" Z="0.30000001"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child0>
+    <Child1 Name="Buoy" Visible="true" ObType="0">
+        <Mesh File="1.Sphere.mesh"/>
+        <Shader File="1.Cube.hlsl"/>
+        <Transform>
+            <Position X="15" Y="1" Z="-0.66666669"/>
+            <Scale X="0.5" Y="0.1" Z="0.029999999"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="1"/>
+        <Child0 Name="Buoy1" Visible="true" ObType="0">
+            <Mesh File="1.Sphere.mesh"/>
+            <Shader File="1.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="22.222223"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="1"/>
+            <Child0 Name="Buoy2" Visible="true" ObType="0">
+                <Mesh File="1.Sphere.mesh"/>
+                <Shader File="1.Cube.hlsl"/>
+                <Transform>
+                    <Position X="0" Y="0" Z="22.222223"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="1"/>
+                <Child0 Name="Buoy3" Visible="true" ObType="0">
+                    <Mesh File="1.Sphere.mesh"/>
+                    <Shader File="1.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="0" Y="0" Z="22.222223"/>
+                        <Scale X="1" Y="1" Z="1"/>
+                        <Rotation X="0" Y="0" Z="0"/>
+                    </Transform>
+                    <Children Size="1"/>
+                    <Child0 Name="Buoy4" Visible="true" ObType="0">
+                        <Mesh File="1.Sphere.mesh"/>
+                        <Shader File="1.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="0" Y="0" Z="22.222223"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="0" Y="0" Z="0"/>
+                        </Transform>
+                        <Children Size="1"/>
+                        <Child0 Name="Buoy5" Visible="true" ObType="0">
+                            <Mesh File="1.Sphere.mesh"/>
+                            <Shader File="1.Cube.hlsl"/>
+                            <Transform>
+                                <Position X="0" Y="0" Z="22.222223"/>
+                                <Scale X="1" Y="1" Z="1"/>
+                                <Rotation X="0" Y="0" Z="0"/>
+                            </Transform>
+                            <Children Size="1"/>
+                            <Child0 Name="Buoy6" Visible="true" ObType="0">
+                                <Mesh File="1.Sphere.mesh"/>
+                                <Shader File="1.Cube.hlsl"/>
+                                <Transform>
+                                    <Position X="0" Y="0" Z="22.222223"/>
+                                    <Scale X="1" Y="1" Z="1"/>
+                                    <Rotation X="0" Y="0" Z="0"/>
+                                </Transform>
+                                <Children Size="1"/>
+                                <Child0 Name="Buoy7" Visible="true" ObType="0">
+                                    <Mesh File="1.Sphere.mesh"/>
+                                    <Shader File="1.Cube.hlsl"/>
+                                    <Transform>
+                                        <Position X="0" Y="0" Z="22.222223"/>
+                                        <Scale X="1" Y="1" Z="1"/>
+                                        <Rotation X="0" Y="0" Z="0"/>
+                                    </Transform>
+                                    <Children Size="1"/>
+                                    <Child0 Name="Buoy8" Visible="true" ObType="0">
+                                        <Mesh File="1.Sphere.mesh"/>
+                                        <Shader File="1.Cube.hlsl"/>
+                                        <Transform>
+                                            <Position X="0" Y="0" Z="22.222223"/>
+                                            <Scale X="1" Y="1" Z="1"/>
+                                            <Rotation X="0" Y="0" Z="0"/>
+                                        </Transform>
+                                        <Children Size="0"/>
+                                    </Child0>
+                                </Child0>
+                            </Child0>
+                        </Child0>
+                    </Child0>
+                </Child0>
+            </Child0>
+        </Child0>
+    </Child1>
+    <Child2 Name="FrontWall" Visible="true" ObType="0">
+        <Mesh File="6.Edit2.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Texture File="tile.png"/>
+        <Transform>
+            <Position X="15" Y="0" Z="-1.3000001"/>
+            <Scale X="16" Y="1" Z="0.30000001"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child2>
+    <Child3 Name="LeftWall2" Visible="true" ObType="0">
+        <Mesh File="6.Edit3.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Texture File="tile.png"/>
+        <Transform>
+            <Position X="0" Y="0" Z="2"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child3>
+    <Child4 Name="LeftWall3" Visible="true" ObType="0">
+        <Mesh File="6.Edit4.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Texture File="tile.png"/>
+        <Transform>
+            <Position X="0" Y="0" Z="4"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child4>
+    <Child5 Name="Plane" Visible="true" ObType="0">
+        <Mesh File="6.Swimplane.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Transform>
+            <Position X="6" Y="-1.2" Z="0"/>
+            <Scale X="0.2" Y="5" Z="1"/>
+            <Rotation X="0" Y="0" Z="1.5707964"/>
+        </Transform>
+        <Children Size="8"/>
+        <Child0 Name="Plane1" Visible="true" ObType="0">
+            <Mesh File="6.Swimplane.mesh"/>
+            <Shader File="6.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="-2" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child0>
+        <Child1 Name="Plane2" Visible="true" ObType="0">
+            <Mesh File="6.Swimplane.mesh"/>
+            <Shader File="6.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="-4" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child1>
+        <Child2 Name="Plane3" Visible="true" ObType="0">
+            <Mesh File="6.Swimplane.mesh"/>
+            <Shader File="6.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="2"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child2>
+        <Child3 Name="Plane4" Visible="true" ObType="0">
+            <Mesh File="6.Swimplane.mesh"/>
+            <Shader File="6.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="-2" Z="2"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child3>
+        <Child4 Name="Plane5" Visible="true" ObType="0">
+            <Mesh File="6.Swimplane.mesh"/>
+            <Shader File="6.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="-4" Z="2"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child4>
+        <Child5 Name="Plane6" Visible="true" ObType="0">
+            <Mesh File="6.Swimplane.mesh"/>
+            <Shader File="6.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="4"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child5>
+        <Child6 Name="Plane7" Visible="true" ObType="0">
+            <Mesh File="6.Swimplane.mesh"/>
+            <Shader File="6.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="-2" Z="4"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child6>
+        <Child7 Name="Plane8" Visible="true" ObType="0">
+            <Mesh File="6.Swimplane.mesh"/>
+            <Shader File="6.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="-4" Z="4"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child7>
+    </Child5>
+    <Child6 Name="RightWall" Visible="true" ObType="0">
+        <Mesh File="6.Edit1.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Texture File="tile.png"/>
+        <Transform>
+            <Position X="30" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child6>
+    <Child7 Name="RightWall2" Visible="true" ObType="0">
+        <Mesh File="6.Edit5.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Texture File="tile.png"/>
+        <Transform>
+            <Position X="30" Y="0" Z="2"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child7>
+    <Child8 Name="RightWall3" Visible="true" ObType="0">
+        <Mesh File="6.Edit6.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Texture File="tile.png"/>
+        <Transform>
+            <Position X="30" Y="0" Z="4"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child8>
+    <Child9 Name="Water" Visible="true" ObType="0">
+        <Mesh File="6.Edit.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Texture File="water.png"/>
+        <Transform>
+            <Position X="15" Y="0.93000001" Z="0"/>
+            <Scale X="0.050000001" Y="14" Z="5"/>
+            <Rotation X="0" Y="0" Z="1.5707964"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child9>
+</Root>

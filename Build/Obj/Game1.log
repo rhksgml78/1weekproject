@@ -1,0 +1,6 @@
+﻿  MainScene.cpp
+C:\Users\user\Desktop\최종\Game1\MainScene.cpp(84,31): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\user\Desktop\최종\Game1\MainScene.cpp(85,31): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\user\Desktop\최종\Game1\MainScene.cpp(95,30): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+     C:\Users\user\Desktop\최종\\Build\Game1.lib 라이브러리 및 C:\Users\user\Desktop\최종\\Build\Game1.exp 개체를 생성하고 있습니다.
+  Game1.vcxproj -> C:\Users\user\Desktop\최종\Build\Game1.exe

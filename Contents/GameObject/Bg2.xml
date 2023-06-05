@@ -1,0 +1,52 @@
+<Root Name="BackGround" Visible="true" ObType="1">
+    <Transform>
+        <Position X="0" Y="17.950001" Z="101.85"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="4"/>
+    <Child0 Name="bg" Visible="true" ObType="0">
+        <Mesh File="6.Edit.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Texture File="backgrownd.jpg"/>
+        <Transform>
+            <Position X="-23.75" Y="-1.5" Z="50"/>
+            <Scale X="1" Y="50" Z="300"/>
+            <Rotation X="0" Y="0" Z="0.52359879"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child0>
+    <Child1 Name="bg1" Visible="true" ObType="0">
+        <Mesh File="6.Edit.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Texture File="backgrownd.jpg"/>
+        <Transform>
+            <Position X="-60.549999" Y="0" Z="304.5"/>
+            <Scale X="1" Y="50" Z="150"/>
+            <Rotation X="0" Y="1.5707964" Z="0.34906587"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child1>
+    <Child2 Name="bg2" Visible="true" ObType="0">
+        <Mesh File="6.Edit.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Texture File="backgrownd.jpg"/>
+        <Transform>
+            <Position X="56.799999" Y="-1.5" Z="50"/>
+            <Scale X="1" Y="50" Z="300"/>
+            <Rotation X="0" Y="0" Z="-0.52359879"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child2>
+    <Child3 Name="bg4" Visible="true" ObType="0">
+        <Mesh File="6.Edit6.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Texture File="brick.jpg"/>
+        <Transform>
+            <Position X="12.7" Y="-21.9" Z="-131.95"/>
+            <Scale X="1" Y="30" Z="50"/>
+            <Rotation X="0" Y="1.5707964" Z="1.5707964"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child3>
+</Root>

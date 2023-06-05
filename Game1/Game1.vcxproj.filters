@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Scene2.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Solar.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_ui.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Player2.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="SwimmingPool.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scene2.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Solar.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Player.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_ui.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Player2.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="SwimmingPool.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Actors">
+      <UniqueIdentifier>{067ecc00-24cc-423e-a2e4-5b190061ca40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{1d9db8ce-74a3-472c-b6db-ce9a5227d383}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
